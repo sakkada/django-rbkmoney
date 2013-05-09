@@ -8,3 +8,5 @@ syntax: glob
 # setup files
 build/
 django_rbkmoney.egg-info
+dist/
+MANIFEST
