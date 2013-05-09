@@ -1,0 +1,8 @@
+[patterns]
+**.py = LF
+**.css = LF
+**.js = LF
+**.txt = LF
+**.html = LF
+**.htm = LF
+**.rst = LF
