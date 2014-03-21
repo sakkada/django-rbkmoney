@@ -1,0 +1,9 @@
+*.swp
+*.pyc
+*.orig
+*.backup
+*.dump
+build/
+django_rbkmoney.egg-info
+dist/
+MANIFEST
