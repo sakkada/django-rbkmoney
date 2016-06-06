@@ -4,7 +4,7 @@ from django.template.response import TemplateResponse
 from django.views.decorators.csrf import csrf_exempt
 from . import forms, signals
 
-from django.utils.log import getLogger
+from logging import getLogger
 
 # get system logger
 logger = getLogger('rbkmoney')
@@ -51,3 +51,4 @@ def fail(request, template_name='rbkmoney/fail.html', extra_context=None):
     logger.debug(request)
 
     return TemplateResponse(request, template_name, extra_context)
+
